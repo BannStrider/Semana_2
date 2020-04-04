@@ -14,7 +14,7 @@
 
 > Commit: https://github.com/BannStrider/Semana_2/commit/59b127e1f427076b4b1622623c76ea607d0f4175
 
-## Creación de una interfaz de usuario en aplicaciones de Xamarin.Forms con XAML
+## Diseños personalizados en páginas XAML de Xamarin.Forms
 
 #### **1.- Ejercicio: Exploración de las opciones de alineación**
 
