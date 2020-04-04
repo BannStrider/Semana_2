@@ -21,3 +21,9 @@
 > Enlace: https://docs.microsoft.com/es-es/learn/modules/customize-layout-in-xamarin-forms-xaml-pages/3-exercise-explore-alignment-options
 
 > Commit: https://github.com/BannStrider/Semana_2/commit/3687ab7b31bc6300a8f5b8c1ffd4b63340f9e66e
+
+#### **2.- Ejercicio: Uso de StackLayout para crear una interfaz de usuario**
+
+> Enlace: https://docs.microsoft.com/es-es/learn/modules/customize-layout-in-xamarin-forms-xaml-pages/5-exercise-use-stacklayout-to-build-a-ui
+
+> Commit: https://github.com/BannStrider/Semana_2/commit/88b01ae55e1e1592a1e4850ecf3f1d26b557bc40
