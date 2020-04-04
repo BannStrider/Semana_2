@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Aplicacion.MainPage">
+
+    <!--Margen para iOS-->
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="0,20,0,0" />
+        </OnPlatform>
+    </ContentPage.Padding>
+
+
+    <StackLayout>
+        <!--Fondo según sistema operativo de móvil-->
+        <StackLayout.BackgroundColor>
+            <OnPlatform x:TypeArguments="Color">
+                <On Platform="iOS" Value="Silver"/>
+                <On Platform="Android" Value="Green"/>
+            </OnPlatform>
+        </StackLayout.BackgroundColor>
+
+        <!--Texto y controles de la página de la aplicación-->
+        <Label Text="Introduzca un teléfono: " FontSize="Large"/>
+        <Entry x:Name="txt_telefono" Text="612345678"/>
+        <Button x:Name="btn_convertir" Text="Convertir"/>
+        <Button x:Name="btn_llamar" Text="Llamar" IsEnabled="false"/>
+    </StackLayout>
+
+</ContentPage>
