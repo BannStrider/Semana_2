@@ -29,3 +29,13 @@ namespace Aplicacion2
         void OnVerticalFillClicked(object sender, EventArgs e) { target.VerticalOptions = LayoutOptions.Fill; }
     }
 }
+
+/**
+ * 
+ * 1. ¿Cuál de las opciones siguientes describe correctamente cómo representa StackLayout el orden de sus elementos secundarios?
+ * El orden representado de las vistas secundarias se basa en el orden de la vista secundaria en la colección Children de StackLayout.
+ * 
+ * 2. ¿Qué valor LayoutOptions usaría para solicitar y rellenar el espacio adicional en un diseño StackLayout?
+ * FillAndExpand
+ * 
+ */
