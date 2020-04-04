@@ -27,3 +27,9 @@
 > Enlace: https://docs.microsoft.com/es-es/learn/modules/customize-layout-in-xamarin-forms-xaml-pages/5-exercise-use-stacklayout-to-build-a-ui
 
 > Commit: https://github.com/BannStrider/Semana_2/commit/88b01ae55e1e1592a1e4850ecf3f1d26b557bc40
+
+#### **3.- Ejercicio: Uso de Grid para crear una interfaz de usuario**
+
+> Enlace: https://docs.microsoft.com/es-es/learn/modules/customize-layout-in-xamarin-forms-xaml-pages/7-exercise-use-grid-to-build-a-ui
+
+> Commit: https://github.com/BannStrider/Semana_2/commit/0d69b7a866e17f0d607ddcb533638408f748f09e
