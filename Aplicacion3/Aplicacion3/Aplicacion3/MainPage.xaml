@@ -4,28 +4,42 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Aplicacion3.MainPage">
+             x:Class="Aplicacion3.MainPage"
+             Padding="40">
 
     <StackLayout>
 
-        <Label Text="Bill" />
-        <Entry x:Name="billInput" Placeholder="Enter Amount" Keyboard="Numeric" />
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Bill" VerticalOptions="Center" />
+            <Entry x:Name="billInput" Placeholder="Enter Amount" Keyboard="Numeric" />
+        </StackLayout>
 
-        <Label Text="Tip"   />
-        <Label x:Name="tipOutput" Text="0.00" />
+        <StackLayout Orientation="Horizontal" Margin="0,20,0,0">
+            <Label Text="Tip" />
+            <Label x:Name="tipOutput" Text="0.00" />
+        </StackLayout>
 
-        <Label Text="Total" />
-        <Label x:Name="totalOutput" Text="0.00" />
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Total" />
+            <Label x:Name="totalOutput" Text="0.00" />
+        </StackLayout>
 
-        <Label Text="Tip Percentage" />
-        <Label x:Name="tipPercent" Text="15%" />
+        <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+            <Label Text="Tip Percentage" />
+            <Label x:Name="tipPercent" Text="15%" />
+        </StackLayout>
+
         <Slider x:Name="tipPercentSlider" Minimum="0" Maximum="100" Value="15" />
 
-        <Button Text="15%" Clicked="OnNormalTip" />
-        <Button Text="20%" Clicked="OnGenerousTip" />
+        <StackLayout Orientation="Horizontal">
+            <Button Text="15%" Clicked="OnNormalTip"   HorizontalOptions="CenterAndExpand" />
+            <Button Text="20%" Clicked="OnGenerousTip" HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
 
-        <Button x:Name="roundDown" Text="Round Down" />
-        <Button x:Name="roundUp"   Text="Round Up" />
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="roundDown" Text="Round Down" HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="roundUp"   Text="Round Up"   HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
 
     </StackLayout>
 
