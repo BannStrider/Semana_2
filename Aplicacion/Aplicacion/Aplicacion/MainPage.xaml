@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Aplicacion"
              mc:Ignorable="d"
              x:Class="Aplicacion.MainPage">
 
@@ -26,8 +27,8 @@
         <!--Texto y controles de la página de la aplicación-->
         <Label Text="Introduzca un teléfono: " FontSize="Large"/>
         <Entry x:Name="txt_telefono" Text="612345678"/>
-        <Button x:Name="btn_convertir" Text="Convertir"/>
-        <Button x:Name="btn_llamar" Text="Llamar" IsEnabled="false"/>
+        <Button x:Name="btn_convertir" Text="Convertir" Clicked="OnTranslate" TextColor="{x:Static local:Resources.Color_Texto_Boton}" BackgroundColor="{x:Static local:Resources.Color_Fondo_Boton}"/>
+        <Button x:Name="btn_llamar" Text="Llamar" IsEnabled="false" Clicked="OnCall"/>
     </StackLayout>
 
 </ContentPage>
