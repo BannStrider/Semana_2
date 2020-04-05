@@ -33,3 +33,9 @@
 > Enlace: https://docs.microsoft.com/es-es/learn/modules/customize-layout-in-xamarin-forms-xaml-pages/7-exercise-use-grid-to-build-a-ui
 
 > Commit: https://github.com/BannStrider/Semana_2/commit/0d69b7a866e17f0d607ddcb533638408f748f09e
+
+## Diseñar páginas XAML de Xamarin.Forms coherentes mediante estilos y recursos compartidos
+
+> Enlace: https://docs.microsoft.com/es-es/learn/modules/design-consistent-xaml-pages-with-shared-resources-and-styles/3-exercise-use-page-level-resources
+
+> Commit: https://github.com/BannStrider/Semana_2/commit/68f01647b795cfdaad47c840bdda6586e6663fd0
