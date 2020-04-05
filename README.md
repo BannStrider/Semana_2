@@ -36,6 +36,20 @@
 
 ## Diseñar páginas XAML de Xamarin.Forms coherentes mediante estilos y recursos compartidos
 
+#### **1.- Ejercicio: Usar recursos de nivel de página**
+
 > Enlace: https://docs.microsoft.com/es-es/learn/modules/design-consistent-xaml-pages-with-shared-resources-and-styles/3-exercise-use-page-level-resources
 
 > Commit: https://github.com/BannStrider/Semana_2/commit/68f01647b795cfdaad47c840bdda6586e6663fd0
+
+#### **2.- Usar DynamicResource para actualizar elementos**
+
+> Enlace: https://docs.microsoft.com/es-es/learn/modules/design-consistent-xaml-pages-with-shared-resources-and-styles/5-exercise-use-dynamicresource-to-update-elements
+
+> Commit: https://github.com/BannStrider/Semana_2/commit/217cedbf24f1816c09eeb4d48f58c3fd44d970ad
+
+#### **3.- Crear y aplicar un estilo**
+
+> Enlace: https://docs.microsoft.com/es-es/learn/modules/design-consistent-xaml-pages-with-shared-resources-and-styles/7-exercise-create-and-apply-a-style
+
+> Commit: https://github.com/BannStrider/Semana_2/commit/3576156d253eff66167bce8dd9205aa6cf6161a3
